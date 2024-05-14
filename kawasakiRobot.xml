@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/06/24||19:15:55" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="kawasakiRobot" uid="kawasakiRobot" version="143">
+<AssemblyFile name="kawasakiRobot.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="BA006L-AC01_J3-1" uid="BA006L-AC01_J3-1" entityUid="BA006L-AC01_J3*:*Varsayılan">
+<Transform>
+<Rotation>0.99431801448344048 -0.096230083565475091 0.045513262799877996 0.09282367194711913 0.99308891719294301 0.071820390383242783 -0.052109999040133199 -0.067187599789912608 0.99637863005712224</Rotation>
+<Translation>0.23341128450980866 0.23477400966505713 0.50612105515313954</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_J5-1" uid="BA006L-AC01_J5-1" entityUid="BA006L-AC01_J5*:*Varsayılan">
+<Transform>
+<Rotation>0.99896239267466447 0.0016373548848148997 0.045513262799877406 -0.0016373548848147928 0.99999865883869121 -3.7280022599232817e-05 -0.045513262799877406 -3.7280022594541427e-05 0.99896373383597326</Rotation>
+<Translation>0.30049826274241598 0.10020033914910999 1.5465004400678595</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_J1-1" uid="BA006L-AC01_J1-1" entityUid="BA006L-AC01_J1*:*Varsayılan">
+<Transform>
+<Rotation>0.99431801448343959 -0.092696460330772862 0.052335956242878075 0.092823671947128872 0.99568256283127299 0 -0.052109999040134199 0.004858015633328161 0.99862953475457739</Rotation>
+<Translation>0.18659796698778638 0.29429999999999906 -0.28109645945701461</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_J2-1" uid="BA006L-AC01_J2-1" entityUid="BA006L-AC01_J2*:*Varsayılan">
+<Transform>
+<Rotation>0.99431801448344037 -0.074798888107228373 0.075741748142166887 0.092823671947125305 0.95754146100595716 -0.27294343073396948 -0.052109999040122514 0.27842319729594917 0.95904383174469121</Rotation>
+<Translation>0.17130305103321397 0.45858762286710675 -0.28029488687752341</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_BASE-1" uid="BA006L-AC01_BASE-1" entityUid="BA006L-AC01_BASE*:*Varsayılan">
+<Transform>
+<Rotation>0.99862953475457739 0 0.052335956242877922 0 1 0 -0.052335956242877922 0 0.99862953475457739</Rotation>
+<Translation>0.16409350580334783 0.29429999999999995 -0.71050715940148235</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_J4-1" uid="BA006L-AC01_J4-1" entityUid="BA006L-AC01_J4*:*Varsayılan">
+<Transform>
+<Rotation>0.99896239267466469 -0.0016373548848333721 0.045513262799876504 -0.0016373548848348561 0.99741623738245755 0.071820390383249708 -0.045513262799876462 -0.071820390383249735 0.99637863005712202</Rotation>
+<Translation>0.26008248537615086 0.036423832488790768 0.6617162165771503</Translation>
+</Transform>
+</Instance>
+<Instance name="BA006L-AC01_J6-1" uid="BA006L-AC01_J6-1" entityUid="BA006L-AC01_J6*:*Varsayılan">
+<Transform>
+<Rotation>0.99896373453123355 8.4880752893051029e-07 0.045513262799877434 8.4880752733408315e-07 0.99999999930473993 -3.7280022599232831e-05 -0.045513262799877434 3.7280022599196496e-05 0.99896373383597326</Rotation>
+<Translation>0.30573228796439911 0.10019605194651038 1.6613812694589909</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Çakışık2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_BASE-1</Uid>
+</InstancePath>
+<Position>-0.16500000000000001 -0.19000000000100001 0.013000000000000012</Position>
+<Axis>-0.99862953475457739 0 -0.052335956242877922</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kawasakiRobot</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Çakışık3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_BASE-1</Uid>
+</InstancePath>
+<Position>0 -0.29430000000000001 0.0050000000000000044</Position>
+<Axis>-3.0531133177200004e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>kawasakiRobot</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli1">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>BA006L-AC01_BASE-1</Uid>
+</InstancePath>
+<Position>0 0 0.25600000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J1-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.13900000000000001</Position>
+<Axis>2.9837243786801082e-16 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Çakışık4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_BASE-1</Uid>
+</InstancePath>
+<Position>0 0 0.23500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J1-1</Uid>
+</InstancePath>
+<Position>0 -0.14950000000000002 -0.19499999999999995</Position>
+<Axis>-3.3306690738754696e-16 1.0148132334464322e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J1-1</Uid>
+</InstancePath>
+<Position>0.10985641111500011 0.16500000000000004 -1.9495516312417749e-13</Position>
+<Axis>-1.0000000000000004 0 2.8449465006019636e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J2-1</Uid>
+</InstancePath>
+<Position>0.083000000000000046 -7.2164496600635175e-16 -1.9556578578772132e-13</Position>
+<Axis>1.0000000000000004 0 -1.2378986724570495e-14</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Uzaklık1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J2-1</Uid>
+</InstancePath>
+<Position>0.055999999999999966 0.047631397208099946 0.027499999999800073</Position>
+<Axis>-1.0000000000000004 0 1.2295719997723609e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J1-1</Uid>
+</InstancePath>
+<Position>0.055000000000000049 0 -0.1855</Position>
+<Axis>1.0000000000000004 0 -2.8449465006019636e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Eş Merkezli3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J2-1</Uid>
+</InstancePath>
+<Position>0.13225000000000012 -6.6613381477509392e-16 0.82000000000000028</Position>
+<Axis>-1.0000000000000002 1.8561541192951836e-16 1.2580214647783805e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J3-1</Uid>
+</InstancePath>
+<Position>0.13525000000000004 1.9234613901630837e-13 -4.4408920985006262e-16</Position>
+<Axis>1.0000000000000002 9.5943218647587258e-15 -7.9797279894933126e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Çakışık7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J2-1</Uid>
+</InstancePath>
+<Position>0.13300000000000003 -6.6613381477509392e-16 0.89050000000000007</Position>
+<Axis>-1.0000000000000004 0 1.2295719997723609e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J3-1</Uid>
+</InstancePath>
+<Position>0.13299999999999995 1.9212409441138334e-13 -3.3306690738754696e-16</Position>
+<Axis>1.0000000000000002 9.4347273049688596e-15 -9.1593399531575415e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J3-1</Uid>
+</InstancePath>
+<Position>8.659739592076221e-15 -0.20999999999999996 0.16549999999999998</Position>
+<Axis>8.3960616237277463e-16 2.4508173268600331e-14 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J4-1</Uid>
+</InstancePath>
+<Position>-1.3572476476042539e-14 1.7895407378176742e-13 0.27282394719800029</Position>
+<Axis>0 -1.7513768213461844e-14 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Çakışık8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BA006L-AC01_J3-1</Uid>
+</InstancePath>
+<Position>8.659739592076221e-15 -0.20999999999999994 0.25699999999999978</Position>
+<Axis>1.6556200854722647e-14 1.4876988529977098e-14 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J4-1</Uid>
+</InstancePath>
+<Position>3.1114000265120012e-14 -0.077999999999800007 0.11499999999999999</Position>
+<Axis>-9.3675067702747583e-16 -2.4313884239290928e-14 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli5">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>BA006L-AC01_J4-1</Uid>
+</InstancePath>
+<Position>0.079999999999999988 2.0239365738916604e-13 0.88800000000000023</Position>
+<Axis>-1.0000000000000002 3.1097954072967227e-14 2.491062911502695e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J5-1</Uid>
+</InstancePath>
+<Position>0.065750000000000086 1.875721800104202e-13 2.886579864025407e-15</Position>
+<Axis>1.0000000000000002 -5.1359993105112639e-14 7.1470607210244452e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Çakışık9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J4-1</Uid>
+</InstancePath>
+<Position>0.079999999999999988 2.0239365738916604e-13 0.88800000000000023</Position>
+<Axis>-1 4.5291461553409462e-14 -2.1649348980190553e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J5-1</Uid>
+</InstancePath>
+<Position>0.080000000000000016 2.0461410343841635e-13 -4.4408920985006262e-15</Position>
+<Axis>1.0000000000000002 -5.4001193453549106e-14 2.9698465908722937e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Eş Merkezli6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J5-1</Uid>
+</InstancePath>
+<Position>-1.3489209749195652e-14 1.7889856263053616e-13 -0.61517605280200005</Position>
+<Axis>0 -1.7535343836694306e-14 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BA006L-AC01_J6-1</Uid>
+</InstancePath>
+<Position>-1.3433698597964394e-14 1.7891244041834398e-13 -0.73017605280200004</Position>
+<Axis>0 -1.7533283852566584e-14 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Uzaklık2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J6-1</Uid>
+</InstancePath>
+<Position>-0.022499999999999964 1.9212409441138334e-13 5.5511151231257827e-15</Position>
+<Axis>2.9212743335449431e-15 1.8549940229706241e-14 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BA006L-AC01_J5-1</Uid>
+</InstancePath>
+<Position>-1.5820678100908481e-14 -0.034881634903400002 0.11050000000000004</Position>
+<Axis>2.8657631823136853e-15 1.8551993437570385e-14 1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="BA006L-AC01_BASE" uid="BA006L-AC01_BASE*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_BASE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.780870833640947</Mass>
+<CenterOfMass>0.00022562627471412676 -0.077717379453924609 0.11452016149123495</CenterOfMass>
+<Inertia>0.49015961412109998 0.26773961347243902 0.56673525164348137 -0.038163210752491329 0.00032308867177288886 0.0012124094455642656</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_BASE_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J1" uid="BA006L-AC01_J1*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.321720782864293</Mass>
+<CenterOfMass>-0.011733429013862571 0.047797165687378552 -0.090364670460985605</CenterOfMass>
+<Inertia>0.17858880457123694 0.11837918897247397 0.1674915649103853 -0.046219653251476284 0.015987375056403092 0.02127499062039288</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J1_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J2" uid="BA006L-AC01_J2*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.5654356590565293</Mass>
+<CenterOfMass>0.14445146750687582 0.0043026609610394492 0.33417738575196648</CenterOfMass>
+<Inertia>0.72091027108356298 0.71954774498133367 0.023686935202153942 -0.0023552909432466135 -0.051229200514595563 -0.00074008174508925979</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J2_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J3" uid="BA006L-AC01_J3*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.068355389556809</Mass>
+<CenterOfMass>0.043020655201640459 -0.11717822088766158 0.098773538160129681</CenterOfMass>
+<Inertia>0.20633671955607524 0.13132895880166071 0.15098680434461731 0.060846498243684426 0.00031684551576198776 0.0033825245361354937</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J3_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J4" uid="BA006L-AC01_J4*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.8071115453825568</Mass>
+<CenterOfMass>0.037917616995163397 0.045974311338861935 0.50356795220539574</CenterOfMass>
+<Inertia>0.28825743798476994 0.29911554569461685 0.029142700251055753 0.003016063718230056 -0.043412343224798186 0.0015867423017634258</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J4_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J5" uid="BA006L-AC01_J5*:*Varsayılan" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5862563565077208</Mass>
+<CenterOfMass>0.018492803870572186 0.026186537715252478 0.045902523452233245</CenterOfMass>
+<Inertia>0.0045590680150159662 0.0042982600110361797 0.0045170202650983175 0.00014647915000501292 0.0004748029791031264 0.00066790406771301866</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J5_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BA006L-AC01_J6" uid="BA006L-AC01_J6*:*Varsayılan" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BA006L-AC01_J6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.083480644774587554</Mass>
+<CenterOfMass>4.1822123947818975e-05 7.6211438534461666e-05 -0.019129982767259916</CenterOfMass>
+<Inertia>3.2043958000467236e-05 3.2585588787516857e-05 3.0504655435546527e-05 -7.9762798051704843e-08 -6.2513413493646713e-08 -5.2369298753350071e-08</Inertia>
+</MassProperties>
+<GeometryFile name="BA006L-AC01_J6_Varsayılan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
